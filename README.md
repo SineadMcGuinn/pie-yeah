@@ -1,6 +1,6 @@
 # Pie Yeah
 
-Pie Yeah is a website built for a pie shop.  The shop sells sweet and savoury pies.  
+Pie Yeah is a website built for a pie shop. The shop sells sweet and savoury pies.
 
 The site can be viewed [here](https://github.com/sineadmcguinn-pie-yeah)
 
