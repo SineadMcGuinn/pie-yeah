@@ -26,10 +26,20 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px 3px #5f4006;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    
 }
 
 h1 {
     font-family: 'Comfortaa', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(76, 10, 121);
+    font-weight: bold;
 }
 
 /* Main Content */
