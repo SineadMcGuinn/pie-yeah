@@ -23,6 +23,10 @@ header {
     background-color: bisque;
 }
 
+h1 {
+    font-family: 'Comfortaa', sans-serif;
+}
+
 /* Main Content */
 main {
     background-color: rgb(233, 198, 152);
