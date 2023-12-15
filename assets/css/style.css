@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     /* Generic Project Styles */
     color:rgb(58, 4, 82);
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Header */
