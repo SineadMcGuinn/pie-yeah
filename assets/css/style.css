@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+/* General Style Rules */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic Project Styles */
+    color:rgb(58, 4, 82);
+}
+
 /* Header */
 header {
     background-color: bisque;
@@ -12,10 +21,14 @@ header {
 
 /* Main Content */
 main {
-    background-color: burlywood;
+    background-color: rgb(233, 198, 152);
+    /* Make main element take up any surplus space to push footer down" */
+    flex: 1 0 auto;
+    
 }
 
 /* Footer */
 footer {
-    background-color: darkgoldenrod
+    background-color: rgb(218, 181, 89);
+    
 }
