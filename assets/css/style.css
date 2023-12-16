@@ -91,10 +91,23 @@ main {
     margin-top: 40px;
 }
 
-/* Footer */
 footer {
     background-color: rgb(218, 181, 89);
+}
 
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 140%;
+    padding: 5%;
+    color: rgb(76, 10, 121);
 }
 
 /* Media query: Tablets and larger (768px and up) */
