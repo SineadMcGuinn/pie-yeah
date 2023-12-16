@@ -55,12 +55,23 @@ h1 {
 .active {
     border-bottom: 2px solid #d88e05;
 }
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: bisque;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 3px 3px #5f4006;
+    display: none; 
+}
+
 /* Main Content */
 main {
     background-color: rgb(233, 198, 152);
     /* Make main element take up any surplus space to push footer down" */
     flex: 1 0 auto;
-    
 }
 
 /* Footer */
