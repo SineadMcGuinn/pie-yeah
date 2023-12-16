@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic Project Styles */
-    color:rgb(58, 4, 82);
+    color: rgb(58, 4, 82);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -26,13 +26,15 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px 3px #5f4006;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
-    
+
 }
 
 h1 {
@@ -48,7 +50,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -64,9 +66,24 @@ nav {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 3px 3px #5f4006;
-    display: none; 
+    display: none;
+    top: 100%;
 }
 
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+} 
+
+/* Hide the checkbox */
+#nav-toggle {
+    display: none;
+}
+
+/* Make label larger (easier to tap) */
+.nav-toggle-label {
+    font-size: 2rem;
+}
 /* Main Content */
 main {
     background-color: rgb(233, 198, 152);
@@ -77,5 +94,5 @@ main {
 /* Footer */
 footer {
     background-color: rgb(218, 181, 89);
-    
+
 }
