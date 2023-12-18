@@ -20,12 +20,13 @@ body {
 
 /* Header */
 header {
-    background-color: bisque;
+    background-color: rgb(72, 8, 97);
+    width: 100%;
     padding: 0 1rem;
     position: fixed;
-    z-index: 99;
+    z-index: 100;
     width: 100%;
-    box-shadow: 0 3px 3px #5f4006;
+    border-bottom: 4px solid rgb(174, 75, 182);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -38,15 +39,19 @@ header a {
 
 h1 {
     font-family: 'Comfortaa', sans-serif;
-    letter-spacing: 2px;
-    color: rgb(76, 10, 121);
+    letter-spacing: 3px;
+    color: rgb(255, 240, 0);
     font-weight: bold;
 }
 
 #menu {
-    font-size: larger;
+    font-size: large;
+    font-weight: bold;
     letter-spacing: 4px;
     list-style-type: none;
+    color: rgb(255, 240, 0);
+    background-color: rgb(72, 8, 97);
+    padding: 4px;
 }
 
 #menu>li {
@@ -54,17 +59,16 @@ h1 {
 }
 
 .active {
-    border-bottom: 2px solid #d88e05;
+    border-bottom: 2px solid rgb(255, 255, 40);
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: bisque;
+    background-color: rgb(72, 8, 97);
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 3px 3px #5f4006;
     display: none;
     top: 100%;
 }
@@ -72,7 +76,7 @@ nav {
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
-} 
+}
 
 /* Hide the checkbox */
 #nav-toggle {
@@ -82,17 +86,21 @@ nav {
 /* Make label larger (easier to tap) */
 .nav-toggle-label {
     font-size: 2rem;
+    color: rgb(255, 244, 0);
 }
+
 /* Main Content */
 main {
-    background-color: rgb(233, 198, 152);
+    background-color: lightgrey;
     /* Make main element take up any surplus space to push footer down" */
     flex: 1 0 auto;
     margin-top: 40px;
+    
 }
 
 footer {
-    background-color: rgb(218, 181, 89);
+    border-top: 8px solid rgb(174, 75, 182);
+    box-shadow: 3px 0 2px rgb(184, 181, 183);
 }
 
 /* Footer */
@@ -105,13 +113,14 @@ footer {
 }
 
 #social-networks i {
-    font-size: 140%;
+    font-size: 150%;
     padding: 5%;
-    color: rgb(76, 10, 121);
+    color: rgb(174, 75, 182);
 }
 
 /* Media query: Tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -120,18 +129,19 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
+
     #menu {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
     .nav-toggle-label {
         display: none;
     }
-    
+
     #logo {
         font-size: 280%;
         line-height: 70px;
@@ -148,6 +158,6 @@ footer {
 /* Media query: Larger devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 2px solid #d88e05;
+        border-bottom: 3px solid rgb(255, 255, 122);
     }
-}    
+}
