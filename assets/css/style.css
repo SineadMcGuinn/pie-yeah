@@ -37,11 +37,12 @@ header a {
     color: inherit;
 }
 
-h1 {
+#logo {
     font-family: 'Comfortaa', sans-serif;
     letter-spacing: 3px;
     color: rgb(255, 240, 0);
     font-weight: bold;
+    padding-top:2%;
 }
 
 #menu {
@@ -155,6 +156,7 @@ footer {
         font-size: 280%;
         line-height: 70px;
         margin: 0 0 .5rem;
+        padding-top: 3%;
     }
 
     /* Main Content */
