@@ -102,7 +102,7 @@ main {
 
 /* Hero Section */
 #hero {
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
@@ -168,6 +168,11 @@ footer {
 
 /* Media query: Larger devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
+    #hero {
+         height: 1000px;
+         width: 100%;    
+    }
     #menu a:hover {
         border-bottom: 3px solid rgb(255, 255, 122);
     }
