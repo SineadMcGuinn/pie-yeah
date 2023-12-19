@@ -138,6 +138,7 @@ main {
     height: 30%;
     /*display: absolute;*/
     position: relative;
+    justify-content: center;
     align-items: center; 
 }
 
@@ -149,6 +150,36 @@ main {
 #cafe-ad h3 {
     font-size: 100%;
     text-align: center;
+}
+
+
+.the-menus {
+    display: flex;
+    list-style-type: none;
+    padding:4px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+   
+}
+
+#coffee {
+    background-color: rgb(255, 255, 122);
+    width: 15%;
+
+}
+
+#pies {
+    background-color: tan;
+    width: 15%;
+    display: flex;
+    list-style-type: none;
+}
+#tea {
+    background-color:rgb(174, 75, 182);
+    width: 15%;
+    display: flex;
+    list-style-type: none;
 }
 
 footer {
