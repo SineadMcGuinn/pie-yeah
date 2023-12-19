@@ -107,6 +107,11 @@ main {
     background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
+#catering {
+    background-color: rgba(255, 255, 122, 0.5);
+    padding-left: 2%;
+}
+
 footer {
     /* border-top: 8px solid rgb(174, 75, 182);
     box-shadow: 3px 0 2px rgb(184, 181, 183); */
