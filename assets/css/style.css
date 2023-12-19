@@ -126,6 +126,32 @@ main {
     border-color:rgb(255, 240, 0);
 }    
     
+#cafe-ad {
+    background-color: rgba(72, 8, 97, 0.8);
+    border-color: rgb(255, 240, 0);
+    color: aliceblue;
+    z-index: 2;
+    margin-top: 40%;
+    margin-left: 25%;
+    margin-bottom: 20%;
+    width: 50%;
+    height: 40%;
+    display: absolute;
+    position:relative;
+    align-items: center;
+    
+
+}
+
+#cafe-ad h2 {
+    font-size: 100%;
+    text-align: center;
+}
+
+#cafe-ad h3 {
+    font-size: 100%;
+    text-align: center;
+}
 
 footer {
     /* border-top: 8px solid rgb(174, 75, 182);
@@ -198,6 +224,7 @@ footer {
             border-color: rgb(255, 240, 0);
     }
 
+    
     /* Main Content */
     main {
         /* Push main content down because of larger heading */
