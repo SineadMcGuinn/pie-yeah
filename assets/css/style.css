@@ -295,6 +295,17 @@ footer {
         text-align: center;
     }   
     
+    .nav-button {
+        background-color: rgb(255, 240, 0);
+        height: 35px;
+        width: 8rem;
+        color: rgb(72, 8, 97);
+        font-size: 1em;
+        font-weight: bold;
+        border-radius: 15%;
+        border-color: rgb(255, 240, 0);
+        }
+        
     .contact {
         font-size:large;
     }
