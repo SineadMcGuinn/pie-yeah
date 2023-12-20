@@ -170,9 +170,10 @@ main {
     background-color: rgb(174, 75, 182);
 }
 
- #address {
-     background-color: rgb(174, 75, 182);
-     border: solid rgb(255, 240, 0);
+ .address {
+     background-color: rgba(161, 146, 5, 0.5);
+     /*border: solid rgb(255, 240, 0);*/
+     box-shadow: 5px, 10px, 10px, #888888;
      top: 50%;
      left: 50%;
      width: 40%;
@@ -293,7 +294,15 @@ footer {
         font-size: 100%;
         text-align: center;
     }   
+    
+    .contact {
+        font-size:large;
+    }
 
+    .address {
+        width: 15%;          
+    }
+    
     /* Main Content */
     main {
         /* Push main content down because of larger heading */
