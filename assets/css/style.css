@@ -170,6 +170,24 @@ main {
     background-color: rgb(174, 75, 182);
 }
 
+ #address {
+     background-color: rgb(174, 75, 182);
+     border: solid rgb(255, 240, 0);
+     top: 50%;
+     left: 50%;
+     width: 40%;
+     height: 80%;
+     margin: auto;
+     background-position: center;
+  
+ }
+
+ .contact {
+     text-align: center;
+     position: center;
+     color: rgb(255, 255, 255);
+ }
+
 footer {
     /* border-top: 8px solid rgb(174, 75, 182);
     box-shadow: 3px 0 2px rgb(184, 181, 183); */
@@ -257,6 +275,8 @@ footer {
         text-align: center;
     }
 
+    
+   
 
     /* Main Content */
     main {
