@@ -101,3 +101,4 @@ Testing and validation processes go here
 Johan Aakerland 'Comfortaa' font 
 Favicon by Freepik
 https://www.flaticon.com/free-icons/cake" title="cake icons">Cake icons created by Freepik - Flaticon
+Hero image: Photo by Alisha Mishra: <https://www.pexels.com/photo/egg-tart-with-mint-on-black-tray-1346217/>
