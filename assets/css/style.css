@@ -92,6 +92,17 @@ nav {
     color: rgb(255, 244, 0);
 }
 
+.nav-button {
+    background-color: rgb(255, 240, 0);
+    height: 20px;
+    width: 5rem;
+    color: rgb(72, 8, 97);
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 15%;
+    border-color: rgb(255, 240, 0);
+}
+
 /* Main Content */
 main {
     /* Make main element take up any surplus space to push footer down" */
@@ -297,8 +308,8 @@ footer {
     
     .nav-button {
         background-color: rgb(255, 240, 0);
-        height: 35px;
-        width: 8rem;
+        height: 42px;
+        width: 5rem;
         color: rgb(72, 8, 97);
         font-size: 1em;
         font-weight: bold;
