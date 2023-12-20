@@ -167,7 +167,7 @@ main {
 }
 
 #tea {
-    background-color: rgb(174, 75, 182);
+    background-color: rgb(174, 75, 182, 0.3);
 }
 
  .address {
@@ -305,7 +305,7 @@ footer {
         border-radius: 15%;
         border-color: rgb(255, 240, 0);
         }
-        
+
     .contact {
         font-size:large;
     }
