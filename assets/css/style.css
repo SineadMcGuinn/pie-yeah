@@ -179,7 +179,26 @@ main {
      height: 80%;
      margin: auto;
      background-position: center;
+     border-radius: 6px;
   
+ }
+
+ #phone-email {
+     color: rgb(30, 4, 41);
+     top: 50%;
+     left: 50%;
+     width: 50%;
+     height: 80%;
+     margin: auto;
+     background-position: center;
+     font-size: large;
+     font-weight: 400;
+ }
+
+ .bold {
+    font-weight: bold;
+    font-size: medium;
+
  }
 
  .contact {
@@ -273,10 +292,7 @@ footer {
     #cafe-ad h3 {
         font-size: 100%;
         text-align: center;
-    }
-
-    
-   
+    }   
 
     /* Main Content */
     main {
