@@ -302,7 +302,10 @@ footer {
     .address {
         width: 15%;          
     }
-    
+
+    th, td {
+        padding: 15px;G
+    }
     /* Main Content */
     main {
         /* Push main content down because of larger heading */
