@@ -92,6 +92,17 @@ nav {
     color: rgb(255, 244, 0);
 }
 
+.nav-button {
+    background-color: rgb(255, 240, 0);
+    height: 20px;
+    width: 5rem;
+    color: rgb(72, 8, 97);
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 15%;
+    border-color: rgb(255, 240, 0);
+}
+
 /* Main Content */
 main {
     /* Make main element take up any surplus space to push footer down" */
@@ -167,13 +178,13 @@ main {
 }
 
 #tea {
-    background-color: rgb(174, 75, 182);
+    background-color: rgb(174, 75, 182, 0.3);
 }
 
  .address {
      background-color: rgba(161, 146, 5, 0.5);
      /*border: solid rgb(255, 240, 0);*/
-     box-shadow: 5px, 10px, 10px, #888888;
+     box-shadow: 5px, 10px, 10px, #810e0e;
      top: 50%;
      left: 50%;
      width: 40%;
@@ -295,6 +306,17 @@ footer {
         text-align: center;
     }   
     
+    .nav-button {
+        background-color: rgb(255, 240, 0);
+        height: 42px;
+        width: 5rem;
+        color: rgb(72, 8, 97);
+        font-size: 1em;
+        font-weight: bold;
+        border-radius: 15%;
+        border-color: rgb(255, 240, 0);
+        }
+
     .contact {
         font-size:large;
     }
@@ -304,7 +326,7 @@ footer {
     }
 
     th, td {
-        padding: 15px;G
+        padding: 15px;
     }
     /* Main Content */
     main {
