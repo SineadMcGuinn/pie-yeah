@@ -163,7 +163,6 @@ main {
 
 .the-menus {
     display: flex;
-    list-style-type: none;
     text-align: center;
     justify-content: center;
     position: relative;
@@ -183,7 +182,7 @@ ul {
 }
 
 #tea {
-    background-color: rgb(174, 75, 182, 0.3);
+    background-color: rgba(174, 75, 182, 0.3);
 }
 
  .address {
