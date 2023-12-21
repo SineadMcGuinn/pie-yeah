@@ -161,16 +161,21 @@ main {
 }
 
 
-.the-menus {
+/*.the-menus {
     display: flex;
     text-align: center;
     justify-content: center;
     position: relative;
     width: 100%;
-}
+}*/
 
 ul {
     list-style-type: none;
+}
+
+.menu-box {
+    width: 30%;
+    display: inline-block;
 }
 
 #coffee {
