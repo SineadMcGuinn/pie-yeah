@@ -124,6 +124,7 @@ main {
     margin-top: 3px;
     border-bottom: 1px solid rgb(255, 244, 0);
     font-size: 14px;
+    position: fixed;
 }
 
 #cater-button {
