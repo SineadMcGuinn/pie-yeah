@@ -174,20 +174,28 @@ ul {
 }
 
 .menu-box {
-    width: 30%;
-    display: inline-block;
+    width: 25%;
+    top: 50%;
+    left: 50%;
+}
+.text-center {
+    text-align: center;
 }
 
 #coffee {
     background-color: rgb(255, 255, 122);
+    
+    top: -20px;
 }
 
 #pies {
-    background-color: tan;
+    background-color: rgba(174, 75, 182, 0.3);
+    position: relative;
 }
 
 #tea {
-    background-color: rgba(174, 75, 182, 0.3);
+    background-color: rgb(255, 255, 122);
+
 }
 
  .address {
@@ -199,7 +207,7 @@ ul {
      width: 40%;
      height: 80%;
      margin: auto;
-     background-position: center;
+     
      border-radius: 6px;
   
  }
