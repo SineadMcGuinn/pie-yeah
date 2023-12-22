@@ -236,6 +236,10 @@ ul {
      color: rgb(255, 255, 255);
  }
 
+ #opening-times {
+    margin-left: 50%;
+ }
+
 footer {
     /* border-top: 8px solid rgb(174, 75, 182);
     box-shadow: 3px 0 2px rgb(184, 181, 183); */
