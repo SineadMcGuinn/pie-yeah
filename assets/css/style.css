@@ -24,7 +24,7 @@ header {
     width: 100%;
     padding: 0 1rem;
     position: fixed;
-    z-index: 100;
+    z-index: 1;
     width: 100%;
     border-bottom: 4px solid rgb(174, 75, 182);
     display: flex;
@@ -112,36 +112,42 @@ main {
 
 /* Hero Section */
 #hero {
-    height: 600px;
+    height: 30vh;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 #catering {
-    background-color: rgba(255, 255, 122, 0.6);
+    background-color: rgb(72,8,97);
+    color: rgb(255, 255, 40);
     padding-left: 3px;
     height: 20px;
     margin-top: 3px;
+    width: 100vw;
     border-bottom: 1px solid rgb(255, 244, 0);
     font-size: 14px;
-    position: fixed;
+    position: relative;
 }
 
 #cater-button {
     background-color: rgb(72, 8, 97);
-    height: 30px;
-    width: 8rem;
+    position: absolute;
+    right: 0;
+    top: 40;
+    z-index: 2;
+    height: 25px;
+    width: 6rem;
     color: rgb(255, 255, 40);
     font-size: 15px;
     border-radius: 25%;
     border-color: rgb(255, 240, 0);
 }
+    
 
 #cafe-ad {
     background-color: rgba(72, 8, 97, 0.8);
     border-color: rgb(255, 240, 0);
     color: aliceblue;
-    z-index: 2;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -171,11 +177,12 @@ main {
 
 ul {
     list-style-type: none;
+    text-align: right;
 }
 
 .menu-box {
     width: 25%;
-    top: 50%;
+    top: 60%;
     left: 50%;
 }
 .text-center {
@@ -207,8 +214,10 @@ ul {
      width: 40%;
      height: 80%;
      margin: auto;
-     
-     border-radius: 6px;
+    border-radius: 6px;
+    text-align: center;
+    position: center;
+    color: rgb(255, 255, 255);
   
  }
 
@@ -220,8 +229,7 @@ ul {
      height: 80%;
      margin: auto;
      background-position: center;
-     font-size: large;
-     font-weight: 400;
+     font-size: 20px;
  }
 
  .bold {
@@ -230,14 +238,15 @@ ul {
 
  }
 
- .contact {
-     text-align: center;
-     position: center;
-     color: rgb(255, 255, 255);
- }
 
- #opening-times {
-    margin-left: 50%;
+
+#opening-times {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px 0;
+    
+      
  }
 
 footer {
@@ -334,6 +343,7 @@ footer {
     .address {
         width: 15%;          
     }
+   
 
     th, td {
         padding: 15px;
