@@ -26,7 +26,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 4;
+    z-index: 6;
     /*border-bottom: 4px solid rgb(174, 75, 182);*/
     display: flex;
     justify-content: space-between;
@@ -44,6 +44,9 @@ header a {
     color: rgb(255, 240, 0);
     font-weight: bold;
     padding-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
 }
 
 #menu {
@@ -55,8 +58,9 @@ header a {
     /*background-color: rgb(72, 8, 97);*/
     padding: 4px;
     padding-top: 6%;
-    height: 100%;
+    height: 20%;
     z-index: 3;
+    display: flex;
 
 }
 
@@ -75,14 +79,14 @@ header a {
 
 /* Navbar styles with dropdown toggle */
 nav {
-    position: absolute;
+    position: sticky;
     /*background-color: rgb(72, 8, 97);*/
     width: 50%;
     right: 0;
     padding: 0 4px;
     display: none;
     top: 0;
-    z-index: 3;
+    z-index: 5;
     background-color: rgba(72, 8, 97, 0.8);
 }
 
@@ -101,6 +105,7 @@ nav {
     font-size: 2rem;
     color: rgb(255, 244, 0);
     z-index:3;
+    
 }
 
 .nav-button {
@@ -114,18 +119,7 @@ nav {
     border-color: rgb(255, 240, 0);
 }
 
-#hero {
-    height: 50vh;
-    width: 100vw;
-    position: relative;
-    z-index: 1;
-    margin-top: 0px;
-    left: 0;
-    
-    padding: 0%;
-    background: url("../images/hero-image.webp") no-repeat center center/cover;
- 
-}
+
 
 /* Main Content */
 main {
@@ -135,7 +129,19 @@ main {
     width: 100%;
     z-index: 3;
 }
+#hero {
+    height: 30vh;
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+    margin-top: 0px;
+    right: 0;
+    max-width: 100%;
 
+    padding: 0%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+
+}
 /* Hero Section */
 
 
@@ -228,10 +234,11 @@ main {
         /*background-color: rgb(255, 255, 122);*/
         box-shadow: 5px 10px 5px #700274;
         width: 190px;
-       
         color: yellow;
         text-align: center;
         z-index: 4;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #pies {
@@ -250,6 +257,8 @@ main {
         width: 190px;
         z-index: 4;
         color: yellow;
+        margin-left: auto;
+        margin-right: auto;
 
 
     }
