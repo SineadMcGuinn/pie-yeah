@@ -51,7 +51,7 @@ header a {
     letter-spacing: 4px;
     list-style-type: none;
     color: rgb(255, 240, 0);
-    background-color: rgb(72, 8, 97);
+    /*background-color: rgb(72, 8, 97);*/
     padding: 4px;
     padding-top: 6%;
     height: 100%;
@@ -60,7 +60,8 @@ header a {
 
 #menu>li {
     margin-bottom: 1em;
-    right: 0;
+    width: 100%;
+    text-align: right;
 }
 
 .active {
@@ -70,9 +71,9 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: rgb(72, 8, 97);
+    /*background-color: rgb(72, 8, 97);*/
     width: 100%;
-    left: 80;
+    right: 80;
     padding: 0 1rem;
     display: none;
     top: 100%;
@@ -159,6 +160,9 @@ main {
     
     position: absolute;
 }
+#menu>li {
+    padding-right: 1rem;
+}
 
 #cafe-ad  {
     
@@ -181,6 +185,10 @@ main {
 
 ul {
     list-style-type: none;
+    text-align: right;
+}
+
+li {
     text-align: right;
 }
 
