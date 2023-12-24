@@ -76,12 +76,12 @@ header a {
 nav {
     position: absolute;
     /*background-color: rgb(72, 8, 97);*/
-    width: 100%;
+    width: 50%;
     right: 0;
-    padding: 0 1rem;
+    padding: 0 4px;
     display: none;
     top: 100%;
-    background-color: rgba(72, 8, 97, 0.5);
+    background-color: rgba(72, 8, 97, 0.8);
 }
 
 /* Nav toggle */
