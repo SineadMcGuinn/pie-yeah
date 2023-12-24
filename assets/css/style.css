@@ -56,6 +56,7 @@ header a {
     padding: 4px;
     padding-top: 6%;
     height: 100%;
+    z-index: 3;
 
 }
 
@@ -80,7 +81,8 @@ nav {
     right: 0;
     padding: 0 4px;
     display: none;
-    top: 100%;
+    top: 0;
+    z-index: 3;
     background-color: rgba(72, 8, 97, 0.8);
 }
 
@@ -98,6 +100,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
     color: rgb(255, 244, 0);
+    z-index:3;
 }
 
 .nav-button {
@@ -118,7 +121,7 @@ nav {
     z-index: 1;
     margin-top: 0px;
     left: 0;
-    margin: 0;
+    
     padding: 0%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
  
