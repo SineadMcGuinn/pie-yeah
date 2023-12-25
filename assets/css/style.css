@@ -16,6 +16,7 @@ body {
     /* Generic Project Styles */
     color: rgb(58, 4, 82);
     font-family: 'Montserrat', sans-serif;
+    background-color: grey;
 }
 
 /* Header */
@@ -23,7 +24,7 @@ header {
     background-color: rgba(72, 8, 97, 0.7);
     width: 100%;
     padding:  1rem;
-    position: sticky;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 6;
@@ -79,7 +80,7 @@ header a {
 
 /* Navbar styles with dropdown toggle */
 nav {
-    position: sticky;
+    position: relative;
     /*background-color: rgb(72, 8, 97);*/
     width: 50%;
     right: 0;
@@ -87,7 +88,8 @@ nav {
     display: none;
     top: 0;
     z-index: 5;
-    background-color: rgba(72, 8, 97, 0.8);
+    color: yellow;
+    /*background-color: rgba(72, 8, 97, 0.8);*/
 }
 
 /* Nav toggle */
@@ -117,6 +119,7 @@ nav {
     font-weight: bold;
     border-radius: 15%;
     border-color: rgb(255, 240, 0);
+    right: 0;
 }
 
 
@@ -130,7 +133,7 @@ main {
     z-index: 3;
 }
 #hero {
-    height: 30vh;
+    /*height: 30vh;
     width: 100vw;
     position: relative;
     z-index: 1;
@@ -138,8 +141,20 @@ main {
     right: 0;
     max-width: 100%;
 
-    padding: 0%;
+    padding: 0%;*/
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    display: flex;
+    align-items: right;
+    margin-right: auto;
+    margin-left: auto;
+
 
 }
 /* Hero Section */
