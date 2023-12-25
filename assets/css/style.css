@@ -14,14 +14,15 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic Project Styles */
-    color: rgb(58, 4, 82);
+    color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     background-color: grey;
 }
 
 /* Header */
 header {
-    background-color: rgba(72, 8, 97, 0.7);
+    /*background-color: rgba(72, 8, 97, 0.7);*/
+    border: 2px solid rgb(255, 240, 0);
     width: 100%;
     padding:  1rem;
     position: absolute;
@@ -80,14 +81,14 @@ header a {
 
 /* Navbar styles with dropdown toggle */
 nav {
-    position: relative;
+    position: absolute;
     /*background-color: rgb(72, 8, 97);*/
     width: 50%;
     right: 0;
-    padding: 0 4px;
+    padding: 0 1rem;
+   
     display: none;
-    top: 0;
-    z-index: 5;
+    
     color: yellow;
     /*background-color: rgba(72, 8, 97, 0.8);*/
 }
@@ -154,6 +155,7 @@ main {
     align-items: right;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 85px;
 
 
 }
@@ -247,9 +249,9 @@ main {
 
     #coffee {
         /*background-color: rgb(255, 255, 122);*/
-        box-shadow: 5px 10px 5px #700274;
+        /*box-shadow: 5px 10px 5px #700274;*/
         width: 190px;
-        color: yellow;
+        color: rgb(255, 255, 255);
         text-align: center;
         z-index: 4;
         margin-left: auto;
@@ -258,20 +260,20 @@ main {
 
     #pies {
         /*background-color: rgba(174, 75, 182, 0.3);*/
-        box-shadow: 5px 10px 5px #700274;
+        /*box-shadow: 5px 10px 5px #700274;*/
         width: 190px;
         z-index: 4;
-        color:yellow;
+        color: rgb(255, 255, 255);
         margin-left: auto;
         margin-right: auto;
     }
 
     #tea {
         /*background-color: rgb(255, 255, 122);*/
-        box-shadow: 5px 10px 5px #700274;
+        /*box-shadow: 5px 10px 5px #700274;*/
         width: 190px;
         z-index: 4;
-        color: yellow;
+        color: rgb(255, 255, 255);
         margin-left: auto;
         margin-right: auto;
 
@@ -329,11 +331,11 @@ main {
         bottom: 0;
         z-index: 3;
         width: 100%;
-        border-bottom: 4px solid rgb(174, 75, 182);
+        border: 2px solid rgb(255, 240, 0);
         display: flex;
         justify-content:space-around;
         align-items: baseline;
-        background-color: rgb(255, 255, 255);
+        background-color: grey;
         margin-left: auto;
         margin-right: auto;
         padding-left: 50%
@@ -357,7 +359,7 @@ main {
 #social-networks i {
     font-size: 150%;
     padding: 5%;
-    color: rgb(174, 75, 182);
+    color: rgb(255, 240, 0);
 }
 
 /* Media query: Tablets and larger (768px and up) */
