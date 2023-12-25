@@ -24,11 +24,11 @@ header {
     /*background-color: rgba(72, 8, 97, 0.7);*/
     border: 2px solid rgb(255, 240, 0);
     width: 100%;
-    padding:  1rem;
+    padding: 0 1rem;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 6;
+    z-index: 99;
     /*border-bottom: 4px solid rgb(174, 75, 182);*/
     display: flex;
     justify-content: space-between;
@@ -49,6 +49,7 @@ header a {
     margin-right: auto;
     margin-left: auto;
     display: flex;
+    /*font: 150px;*/
 }
 
 #menu {
@@ -324,23 +325,23 @@ main {
 
     }
 
-    footer {
+    /*footer {
         width: 100%;
         padding: 0 1rem;
-        position: sticky;
+        position: absolute;
         bottom: 0;
         z-index: 3;
         width: 100%;
         border: 2px solid rgb(255, 240, 0);
         display: flex;
-        justify-content:space-around;
+      
         align-items: baseline;
         background-color: grey;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 50%
-    }
-
+        
+    }*/
+        
     /* border-top: 8px solid rgb(174, 75, 182);
     box-shadow: 3px 0 2px rgb(184, 181, 183); */
 
@@ -352,7 +353,7 @@ main {
     display: flex;
     padding: 5%;
     justify-content: space-evenly;
-
+    border: 2px solid rgb(255, 240, 0);
     list-style-type: none;
 }
 
